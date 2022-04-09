@@ -4,8 +4,8 @@
 /**
   * main - entry point
   *
-Description: prints last digits stores value.
-Return: 0
+* Description: prints last digits stores value.
+* Return: 0
 */
 int main(void)
 {
