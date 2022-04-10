@@ -2,8 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - prints last diggits with diffvalues
- * 
+ * main - entry point
+ *
+ * Description: prints last digit with diffvaues
  * Restore: 0
  */
 int main(void)
