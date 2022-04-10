@@ -4,7 +4,7 @@
 /**
  * main - entry point
  *
- * Description: prints last digit with diffvaues
+ * Description: prints last digit with values
  * Restore: 0
  */
 int main(void)
