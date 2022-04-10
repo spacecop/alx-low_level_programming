@@ -3,6 +3,7 @@
 #include <stdio.h>
 /**
  * main - prints last diggits with diffvalues
+ * 
  * Restore: 0
  */
 int main(void)
