@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* main - entry point
-*
-* Description: Prints last digit with values
-* Return: 0
-*/
+ * main - entry point
+ *
+ * Description: Prints last digit with values
+ * Return: 0
+ */
 int main(void)
 {
 int n;
