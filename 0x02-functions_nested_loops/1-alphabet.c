@@ -6,13 +6,12 @@
  */
 void print_alphabet(void)
 {
-char c;
-c='a';
-while (c<='z')
+char c = 'a';
+while (c <= 'z')
 {
-_putchar("%c ",c);
+_putchar(c);
 c++;
 }
-_putchar("lower case c:\n");
+_putchar('\n');
 return (0);
 }
