@@ -4,7 +4,7 @@
  *
  * Return: 0 is success
  */
-void print_alphabet()
+int main(void)
 {
 char c = 'a';
 while (c <= 'z')
