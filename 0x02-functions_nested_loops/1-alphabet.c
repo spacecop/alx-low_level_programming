@@ -4,7 +4,7 @@
  *
  * Return: 0 is success
  */
-void print_alphabet(void)
+void print_alphabet()
 {
 char c = 'a';
 while (c <= 'z')
@@ -12,6 +12,6 @@ while (c <= 'z')
 _putchar(c);
 c++;
 }
-_putchare('\n');
+_putchar('\n');
 return (0);
 }
