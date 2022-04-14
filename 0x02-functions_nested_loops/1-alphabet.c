@@ -1,16 +1,17 @@
 #include "main.h"
 /**
- * print_alphabet - entry point
- * Return: 0
+ * main - entry point
+ * Return: 0 after printing
  */
-void print_alphabet(void)
+int main(void)
 {
-char c='a';
+char c;
+c='a';
 while (c<='z')
 {
-_putchar(c);
+_putchar("%c ",c);
 c++;
 }
-_putchar('\n');
-return (0)
+_putchar("lower case c:\n");
+return (0);
 }
