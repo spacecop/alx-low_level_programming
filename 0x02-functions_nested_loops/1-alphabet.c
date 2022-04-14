@@ -1,16 +1,12 @@
 #include "main.h"
 /**
- * main - entry point
+ * print_alphabet - prints alphabet in lower case
  *
- * Return: 0 is success
- */
-int main(void)
+ **/
+void print_alphabet(void)
 {
-char c = 'a';
-while (c <= 'z')
-{
-_putchar(c);
-c++;
-}
+char c;
+for (c = 'a'; c <= 'z'; c++)
+_putchar(c)
 _putchar('\n')
 }
