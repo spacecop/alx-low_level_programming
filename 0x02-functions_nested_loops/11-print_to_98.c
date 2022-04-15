@@ -18,7 +18,6 @@ printf(", ");
 }
 }
 }
-else
 {
 for (i = n; i < 99; i++)
 {
