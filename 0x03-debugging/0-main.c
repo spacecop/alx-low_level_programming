@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * main - main
- * Return: 0
+ * main - Test for positive/negative
+ *
+ * Return: 0 means success
  */
 int main(void)
 {
