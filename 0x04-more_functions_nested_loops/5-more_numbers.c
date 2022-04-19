@@ -8,7 +8,7 @@ void more_numbers(void)
 {
 int i;
 int first_number;
-int second_number
+int second_number;
 int result;
 
 i = 0;
