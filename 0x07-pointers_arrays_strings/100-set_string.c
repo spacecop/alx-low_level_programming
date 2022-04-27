@@ -1,6 +1,6 @@
 #include "main.h"
  /**
-  * set_string - sets the value of a pointer to a char
+  * set_string - sets pointer value to char
   * @s: content is to be copied
   * @to: string
   * Return: void
