@@ -22,7 +22,7 @@ int p1(char *s, int l)
 {
 if (l < 1)
 {
-retuen (1);
+return (1);
 }
 if (*s == *(s + l))
 {
