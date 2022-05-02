@@ -24,7 +24,7 @@ if (l < 1)
 {
 retuen (1);
 }
-if (*s == *(s +l))
+if (*s == *(s + l))
 {
 return (p1(s + 1, l - 2));
 }
