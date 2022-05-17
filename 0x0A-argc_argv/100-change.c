@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -21,12 +21,13 @@ if (argc != 2)
 printf("Error\n");
 return (1);
 }
+
 total = atoi(argv[1]); /*covert str to int*/
 
 if (total <= 0)
 {
 printf("0\n");
-return (0)
+return (0);
 }
 
 /*Declaring While*/
