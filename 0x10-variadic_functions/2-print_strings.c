@@ -11,7 +11,7 @@ void print_strings(const char *serparator, const unsigned int n, ...)
 {
 va_list valist;
 unsigned int i;
-char *str
+char *str;
 
 va_start(valist, n);
 		
