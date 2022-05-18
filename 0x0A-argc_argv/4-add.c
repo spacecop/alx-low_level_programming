@@ -38,7 +38,7 @@ return (1);
  * return: always 0 (success)
  */
 
-int main(ing argc, char *argv[])
+int main(int argc, char *argv[])
 
 {
 
