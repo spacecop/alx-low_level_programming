@@ -55,7 +55,6 @@ if (check_num(argv[count]))
 str_to_int = atoi(argv[count]);
 sum += str_to_int;
 }
-
 /*condition if one if the number contains symbols that are ot digits*/
 else
 { 
