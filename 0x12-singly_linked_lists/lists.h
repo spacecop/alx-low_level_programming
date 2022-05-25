@@ -1,5 +1,5 @@
-#ifndef _LISTS_
-#define _LISTS_
+#ifndef _LISTS_H_
+#define _LISTS_H_
 
 size_t print_list(const list_t *h);
 size_t list_len(const list_t *h);
