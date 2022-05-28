@@ -5,7 +5,7 @@
  *
  * Return: number of elements infreed list
  */
-size_t free_listint_safe(listint**h)
+size_t free_listint_safe(listint_t **h)
 {
 	size_t len = 0;
 	int diff;
@@ -23,7 +23,8 @@ size_t free_listint_safe(listint**h)
 			*h = temp;
 			len++;
 		}
-		else{
+		else
+		{
 			free(*h);
 			*h = NULL;
 			len++;
