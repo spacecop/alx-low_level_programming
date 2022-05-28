@@ -15,5 +15,6 @@ if (!head || !*head)
 num = (*head)->n;
 temp = (*head)->next;
 free(*head);
+*head = temp;
 return (num);
 }
