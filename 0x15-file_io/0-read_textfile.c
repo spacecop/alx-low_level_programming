@@ -9,7 +9,7 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 ssize_t file, fread, fwrite;
-char *totalsize;
+char *totalSize;
 
 totalSize = malloc(sizeof(char) * letters);
 if (totalSize == NULL)
@@ -23,7 +23,7 @@ if (file == -1)
 fread = read(file, totalSize, letters);
 if (fread == -1)
 	return (0);
-fwrite = write(STDOUT_FILENO, totalSize, letters);
+fwrite = write(STDOUT_FILENO, totalSize, fread);
 if (fwrite == -1)
 	return (0);
 close(file);
