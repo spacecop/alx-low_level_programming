@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * create_file - creates a file
  * @filename: the name of the file to create
@@ -19,7 +20,7 @@ int create_file(const char *filename, char *text_content)
 		for (i = 0; text_content[i]; i++)
 			;
 		fwrite = write(file, text_content, i);
-		if (write == -1)
+		if (fwrite == -1)
 			return (-1);
 	}
 	close(file);
