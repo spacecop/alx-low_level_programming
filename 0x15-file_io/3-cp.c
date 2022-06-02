@@ -19,10 +19,10 @@ int main(int argc, char **argv)
 	f1 = open(argv[1], O_RDONLY);
 	if (f1 == -1)
 	{
-	dprintf(STDERR_FILENO, "Error: can't read from file %s\n", argv[1];
+	dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", argv[1];
 			exit(98);
 			}
-			f2 = open(argv[2], O_CREAT | O_TRUNC | O_WRONLY' 0664);
+			f2 = open(argv[2], O_CREAT | O_TRUNC | O_WRONLY, 0664);
 			while ((n = read(f1, buf, 1024)) > 0)
 	{
 		if (write(f2, buf, n) != n || f2 == -1)
