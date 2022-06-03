@@ -4,7 +4,7 @@
  * print_sign - retrun 0 letter not lowercase, 1 letter lowercase
  *
  * @n: the int to print
- * REturn: always 0.
+ * Return: Always 0 (succesful)
  */
 int print_sign(int n)
 {
