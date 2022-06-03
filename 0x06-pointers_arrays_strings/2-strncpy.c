@@ -1,5 +1,5 @@
 #include "main.h"
-/*8
+/**
  * _strncpy - copies a string
  * @dest: A pointer to a character that will be changed
  * @src: A pointer to a character that will be changed
