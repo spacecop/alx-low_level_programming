@@ -8,8 +8,7 @@ int main(void)
 
 	a[2] = 1024;
 	p = &n;
-	/**
-	 * main - adds a line 
+	/* 
 	 * write your line of code here...
 	 * Remember:
 	 * - your are not allowed to use a
