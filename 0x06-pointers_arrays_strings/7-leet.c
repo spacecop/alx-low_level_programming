@@ -1,28 +1,28 @@
 #include "main.h"
 /**
- * leet - translates string to 1337
- * @sting: pointer to string
- * Return: returns translated string
+ * leet - encodes a string into1337
+ * @s:
+ * input string.
+ * Return: the pointer dest.
  */
-char *leet(char *string)
+char *leet(char *s)
 {
-	int a;
-	int b;
+	int count = 0, i;
+	int lower_case[] = {97, 101, 111, 116, 108};
+	int upper_case[] = {65, 69, 79, 84, 76};
+	int numbers[] = {52, 51, 48, 55, 49};
 
-	char lower[] = "aeotl";
-	char upper[] = "AEOTL";
-	char numbers[] = "43071";
-
-	for (a = 0; string[a] != '\0'; a++)
+	while (*(s + count) != '\0')
 	{
-		for (b = 0; lower[b] != '\0' && upper[b] != '\0'; b++)
+		for (i = 0; i < 5; i++)
 		{
-			if (string[a] == lower[b] || string[a] == upper[b])
+			if (*(s + count) == lower_case[i] || *(s + count) == upper_case[i])
 			{
-				string[a] = numbers[b];
+				*(s + count) = numbers[i];
 				break;
 			}
+		}
+		count++;
 	}
-}
-return (string);
+	return (s);
 }
