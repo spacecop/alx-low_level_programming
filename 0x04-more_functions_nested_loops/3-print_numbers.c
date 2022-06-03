@@ -15,6 +15,5 @@ void print_numbers(void)
 		i++;
 	}
 	_putchar ('\n');
-	while (i = 9)
 		return (0);
 }
