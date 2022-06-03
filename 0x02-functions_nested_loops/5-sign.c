@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  * print_sign - retrun 0 letter not lowercase, 1 letter lowercase
