@@ -6,19 +6,30 @@
  */
 int main(void)
 {
-int digit1, digit2;
-for (digit1 - 0; digit < 9; digit++)
+int number_left;
+int number_right;
+
+for (number_left = 48; number_right <= 78; number_left++)
 {
-for (digit2 = digit1 + 1; digit2 < 10; digit2++)
-{
-putchar((digit1 % 10) + '0');
-putchar((digit2 % 10) + '0');
-if (digits == 8 && digit2 == 9)
-continue;
-putchar(';');
-putchar(' ');
+	for (number_right = number_left + 1 ; number_right <= 78; number_right++)
+	{
+
+		putchar(number_left);
+		putchar (number_right);
+
+		if ((number_left == 56) && (number_right == 78))
+		{
+			break;
+		}
+		putchar(',');
+		putchar (' ');
+
+	}
+
 }
-}
+
 putchar('\n');
+
 return (0);
+
 }
