@@ -10,9 +10,9 @@ int main(void)
 	int first_nums;
 	int second_nums;
 
-	for (first_nums = 0; first_nums < 100; first_nums++)
+	for (first_nums = 0; first_nums < 100 ; first_nums++)
 	{
-		for (second_nums = first_nums + 1; second_nums < 100; second_nums++)
+		for (second_nums = first_nums + 1 ; second_nums < 100; second_nums++)
 		{
 
 			putchar (first_nums / 10 + '0');
@@ -29,7 +29,7 @@ int main(void)
 			}
 
 			putchar(',');
-			purchar(' ');
+			purchar (' ');
 
 		}
 
