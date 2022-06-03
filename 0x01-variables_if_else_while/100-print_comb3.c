@@ -15,14 +15,14 @@ for (number_left = 48; number_right <= 78; number_left++)
 	{
 
 		putchar(number_left);
-		putchar (number_right);
+		putchar(number_right);
 
 		if ((number_left == 56) && (number_right == 78))
 		{
 			break;
 		}
 		putchar(',');
-		putchar (' ');
+		putchar(' ');
 
 	}
 
