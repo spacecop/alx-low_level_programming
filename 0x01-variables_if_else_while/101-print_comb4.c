@@ -21,7 +21,6 @@ int main(void)
 				putchar(left);
 				putchar(center);
 				putchar(right);
-				
 
 				if ((left == 55) && (center == left + 1) && (right == center + 1))
 				{
