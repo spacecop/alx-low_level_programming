@@ -72,8 +72,7 @@ void print_buffer(char *b, int size)
 			printASCII(b, start, end);
 			printf("\n");
 		}
-	}
-	else
+	} else
 		printf("\n");
 }
 
