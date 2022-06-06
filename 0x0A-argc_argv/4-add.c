@@ -17,6 +17,7 @@ int check_num(char *str)
 unsigned int count;
 
 count = 0;
+
 while (count < strlen(str)) /*count string*/
 
 {
@@ -48,11 +49,12 @@ int str_to_int;
 int sum = 0;
 
 count = 1;
+
 while (count < argc) /*goes through the whole array*/
 {
 if (check_num(argv[count]))
 {
-str_to_int = atoi(argv[count]);
+str_to_int = atoi(argv[count]); /*ATOI --> convert string to int*/
 sum += str_to_int;
 }
 /*condition if one if the number contains symbols that are ot digits*/
