@@ -8,6 +8,7 @@
 int _strlen(char *s)
 {
 	unsigned int i;
+
 	i = 0;
 
 	while (s[i] != '\0') /*count character of string*/
@@ -41,7 +42,7 @@ char *str_concat(char *s1, char *s2)
 	size = (_strlen(s1) + _strlen(s2) + 1);
 
 	/*malloc*/
-	dst = (char *)malloc (size * sizeof(char));
+	dst = (char *) malloc(size * sizeof(char));
 
 	if (dst == 0)
 	{
