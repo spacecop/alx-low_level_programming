@@ -32,11 +32,11 @@ return (1);
 }
 
 /**
- * main - print the name of the program
+ * int main - print the name of the program
  * @argc: count arguments
  * @argv: arguments
  *
- * return: always 0 (success)
+ * Return: always 0 (success)
  */
 
 int main(int argc, char *argv[])
@@ -59,8 +59,8 @@ sum += str_to_int;
 /*condition if one if the number contains symbols that are ot digits*/
 else
 { 
-printf("Error\n");
-return (1);
+	printf("Error\n");
+	return (1);
 }
 count++;
 }
