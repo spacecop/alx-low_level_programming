@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * sttow - splits a string into  words
+ * strtow - splits a string into  words
  * @str: string of words to be split
  * Return: double pointer to strings
  */
@@ -9,6 +9,7 @@ char **strtow(char *str)
 	char **ptr;
 	int i, k, len, start, end, j = 0;
 	int words = countWords(str);
+
 	if (!str || !countWords(str))
 		return (NULL);
 	ptr = malloc(sizeof(char *) * (words + 1));
@@ -43,6 +44,16 @@ char **strtow(char *str)
 }
 
 /**
+ * isSpace - determines if character is a space or not
+ * @c: input char
+ * REturn: 1 if true or 0 or not
+ */
+int isSpace(char c)
+{
+	return (c == ' ');
+}
+
+/**
  * startIndex - returns first index of non-space char
  * @s: input string
  * @index: starting index
@@ -51,7 +62,20 @@ char **strtow(char *str)
 int startIndex(char *s, int index)
 {
 
-	while (isSpac(*(s +index)))
+	while (isSpac(*(s + index)))
+		index++;
+	return (index);
+}
+
+/**
+ * endIndex - returns last index of non-space char
+ * @s: input string
+ * @index: starting index
+ * REturn: index of last index of non-space char
+ */
+int endIndex(char *s, int index)
+{
+	while (!isSpace(*(s + index)))
 		index++;
 	return (index);
 }
