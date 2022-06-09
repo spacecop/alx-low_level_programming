@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print-dog - prints a dog
+ * print_dog - prints a dog
  *
  * @d: dog to print
  *
