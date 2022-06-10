@@ -2,7 +2,7 @@
 #include "dog.h"
 
 /**
- * _copy - Make a copy of passed argument
+ * *_copy - Make a copy of passed in argument
  * @src: Data to make copy of
  * REturn: pointer
  */
