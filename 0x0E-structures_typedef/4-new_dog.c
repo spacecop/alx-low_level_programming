@@ -10,7 +10,7 @@
 char *_copy(char *src)
 {
 	char *ptr;
-	int, len;
+	int i, len;
 
 	if (src == NULL)
 	{
