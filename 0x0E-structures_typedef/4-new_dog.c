@@ -19,6 +19,7 @@ char *_copy(char *src)
 
 	for (len = 0; src[len] != '\0'; len++)
 		;
+
 	ptr = malloc(sizeof(char) * (len + 1));
 
 	if (ptr == NULL)
@@ -28,7 +29,7 @@ char *_copy(char *src)
 
 	for (i = 0; src[i] != '\0'; i++)
 	{
-		prt[i] = src[i];
+		ptr[i] = src[i];
 	}
 	ptr[i] = '\0';
 	return (ptr);
@@ -75,7 +76,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 		free(snoopie);
 		return (NULL);
 	}
-	(*snoopie).owner = new_ower;
+	(*snoopie).owner = new_owner;
 
 	return (snoopie);
 }
