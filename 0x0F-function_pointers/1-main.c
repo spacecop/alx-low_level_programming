@@ -21,11 +21,11 @@ void print_elem(int elem)
  */
 void print_elem_hex(int elem)
 {
-	pringf("0x%x\n", elem);
+	printf("0x%x\n", elem);
 }
 
 /**
- * main - check the code
+ * main(void) - check the code
  *
  * REturn: Always 0.
  */
