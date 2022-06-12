@@ -9,7 +9,7 @@
  */
 int is_98(int elem)
 {
-	return (98 == elem);
+	return (elem == 98);
 }
 
 /**
@@ -30,12 +30,21 @@ int is_strictly_positive(int elem)
  *
  * Return: 0 if false, something else otherwise.
  */
+int abs_is_98(int elem)
+{
+	return (elem == 98 || -elem == 98);
+}
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
 	int array[20] = {0, -98, 98, 402 1024, 4096, -1024, -98, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 98};
 	int index;
 
-	ubdex = int_index(array, 20, is_98);
+	index = int_index(array, 20, is_98);
 	printf("%d\n", index);
 	index = int_index(array, 20, abs_is_98);
 	printf("%d\n", index);
