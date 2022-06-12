@@ -25,11 +25,11 @@ void print_elem_hex(int elem)
 }
 
 /**
- * main(void) - check the code
+ * main - check the code
  *
  * REturn: Always 0.
  */
-int main(void)
+int main()
 {
 	int array[5] = {0, 98, 402, 1024, 4096};
 
