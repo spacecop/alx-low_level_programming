@@ -25,7 +25,7 @@ void print_elem_hex(int elem)
 }
 
 /**
- * main: check the code
+ * main - check the code
  *
  * REturn: Always 0.
  */
