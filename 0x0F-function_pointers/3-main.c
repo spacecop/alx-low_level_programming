@@ -1,4 +1,4 @@
-#include "3_calc.h"
+#include "3-calc.h"
 
 /**
  * main - program that performs simple operations
